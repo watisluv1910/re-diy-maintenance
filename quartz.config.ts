@@ -22,32 +22,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Ubuntu",
+        header: "Ubuntu Sans",
         code: "Andale Mono",
-        body: "Ubuntu",
+        body: "Ubuntu Sans",
       },
       colors: {
         lightMode: {
-          light: "#ebe6e0",       // Parchment – soft off-white background
-          lightgray: "#f9d9b1",   // Soft Apricot – warm, subtle borders
-          gray: "#b89a80",        // Taupe (added) – medium neutral for heavier borders and graph links
-          darkgray: "#5a402b",    // Dark brown (derived from Dark Coffee) – body text, good contrast
-          dark: "#422b19",        // Dark Coffee – headers and icons
-          secondary: "#195e5c",   // Stormy Teal – links and current graph node
-          tertiary: "#dcaf81",    // Sandy Clay – hover states and visited graph nodes
-          highlight: "rgba(25, 94, 92, 0.1)", // Stormy Teal at 10% – subtle background for internal links, code highlights
-          textHighlight: "#fbe5b0cc" // Light apricot (added) with 80% opacity – markdown highlighter effect
+          light: "#faf8f8",          // Off-white background
+          lightgray: "#e5e5e5",      // Light gray borders
+          gray: "#b8b8b8",           // Medium gray for graph links, heavier borders
+          darkgray: "#4e4e4e",       // Dark gray body text (good contrast)
+          dark: "#2b2b2b",           // Almost black headers and icons
+          secondary: "#EBAB00",      // Mustard Gold – links, current graph node
+          tertiary: "#FE2414",       // Neon Red – hover states, visited graph nodes
+          highlight: "rgba(235,171,0,0.15)", // Mustard Gold at 15% – internal link/code background
+          textHighlight: "rgba(254,36,20,0.4)" // Neon Red at 40% – mark highlights
         },
         darkMode: {
-          light: "#422b19",          // Dark Coffee – deep, warm page background
-          lightgray: "#d9b594",      // Light Sandy Clay (derived) – subtle borders
-          gray: "#b99e82",           // Warm Gray (added) – graph links and heavier borders
-          darkgray: "#ebe6e0",       // Parchment – body text (light beige)
-          dark: "#f9d9b1",           // Soft Apricot – headers and icons
-          secondary: "#33a5a2",      // Bright Teal (lightened Stormy Teal) – links, current graph node
-          tertiary: "#dcaf81",       // Sandy Clay – hover states, visited graph nodes
-          highlight: "rgba(51,165,162,0.2)", // Bright Teal at 20% – background for internal links, code highlights
-          textHighlight: "rgba(249,217,177,0.4)" // Soft Apricot at 40% – markdown highlighter effect
+          light: "#161618",          // Dark neutral background
+          lightgray: "#393639",      // Dark gray borders
+          gray: "#646464",           // Medium gray for graph links, heavier borders
+          darkgray: "#d4d4d4",       // Light gray body text
+          dark: "#ebebec",           // Near-white headers and icons
+          secondary: "#EBAB00",      // Mustard Gold – links, current graph node
+          tertiary: "#FE2414",       // Neon Red – hover states, visited graph nodes
+          highlight: "rgba(235,171,0,0.25)", // Mustard Gold at 25% – internal link/code background
+          textHighlight: "rgba(254,36,20,0.4)" // Neon Red at 40% – mark highlights
         },
       },
     },
