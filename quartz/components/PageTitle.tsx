@@ -9,19 +9,17 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const logoPath = joinSegments(baseDir, "static/re-logo.png")
   return (
     <div class={classNames(displayClass, "page-title")}>
-      <img style="aspect-ratio: 1/1; width: 30px" src={logoPath}/>
-      <h2><a href={baseDir}>{title}</a></h2>
+      <h2>
+        <a href={baseDir}>
+          <img style="aspect-ratio: 1.56/1; width: 100%" src={logoPath}>{title}<img/>
+        </a>
+      </h2>
     </div>
   )
 }
 
 PageTitle.css = `
 .page-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-
   font-size: 1.75rem;
   margin: 0;
   font-family: var(--titleFont);
