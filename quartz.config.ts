@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "ru-RU",
     baseUrl: "watisluv1910.github.io/re-classic-350-reborn-maintenance",
-    ignorePatterns: ["private", "templates", ".obsidian", "index.md"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
