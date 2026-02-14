@@ -6,7 +6,7 @@ on:
       - main
  
 env:
-  THEME_NAME: marathon
+  THEME_NAME: cosmical
 
 permissions:
   contents: read
