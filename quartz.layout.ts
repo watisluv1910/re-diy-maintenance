@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/watisluv1910/re-classic-350-reborn-maintenance",
+      GitHub: "https://github.com/watisluv1910/re-diy-maintenance",
     },
   }),
 }
